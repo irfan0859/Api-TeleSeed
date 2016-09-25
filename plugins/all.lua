@@ -91,7 +91,7 @@ local function all(msg,target,receiver)
   if not data[tostring(target)] then
     return
   end
-  local text = "All the things I know about this group\n\n"
+  local text = "All the things I know about this group is here \n\n"
   local group_type = get_group_type(target)
   text = text.."Group Type: \n"..group_type
   if group_type == "Group" or group_type == "Realm" then
