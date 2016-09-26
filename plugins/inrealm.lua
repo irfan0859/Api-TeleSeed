@@ -4,7 +4,6 @@ do
 
 local function create_group(msg)
      -- superuser and admins only (because sudo are always has privilege)
-    then
 		local group_creator = msg.from.print_name
 		create_group_chat (group_creator, group_name, ok_cb, false)
 		return 'Bot can't create groups'
