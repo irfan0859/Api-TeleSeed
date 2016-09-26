@@ -2,14 +2,7 @@
 -- check moderation plugin
 do
 
-local function create_group(msg)
-     -- superuser and admins only (because sudo are always has privilege)
-    if is_sudo(msg) or is_realm(msg) and is_admin1(msg) then
-		local group_creator = msg.from.print_name
-		create_group_chat (group_creator, group_name, ok_cb, false)
-		return 'Bot can't create groups'
-	end
-end
+
 
 local function create_realm(msg)
         -- superuser and admins only (because sudo are always has privilege)
@@ -1045,7 +1038,6 @@ end
 
 return {
   patterns = {
-    "^[#!/](creategroup) (.*)$",
 	"^[#!/](createsuper) (.*)$",
     "^[#!/](createrealm) (.*)$",
     "^[#!/](setabout) (%d+) (.*)$",
