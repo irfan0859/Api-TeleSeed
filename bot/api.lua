@@ -238,7 +238,7 @@ function create_config( )
     about_text = [[io bot by Electrovirus
 ⚡ @Ev_official]],
     help_text_realm = [[
-Realm TeleBeyond Commands:
+Realm Commands:
 
 !creategroup [Name]
 Create a group
