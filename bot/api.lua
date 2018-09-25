@@ -233,7 +233,7 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {184018132},--Sudo users
+    sudo_users = {465511496,465511496},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[io bot by Electrovirus
 ⚡ @Ev_official]],
